@@ -18,7 +18,7 @@ const interstitial = InterstitialAd.createForAdRequest(adUnitId, {
 
 
 // Destination url and the react component to render in the link
-const Pagination = ({destination, children}) => {
+const InterstitialAdLink = ({destination, children}) => {
 
   const [loaded, setLoaded] = useState<boolean>(false);
 
