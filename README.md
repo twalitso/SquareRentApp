@@ -1,6 +1,10 @@
 Added InlineBannerAd component
 Added InterstialAdLink component
 
+Removed client secret from `tools/oauth-consent-ID/client_secret_335360787471.json`
+
+TODO:
+Add googleServices.json to root dir
 Usage
 
 ```jsx
