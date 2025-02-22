@@ -1,7 +1,7 @@
 Added InlineBannerAd component
 Added InterstialAdLink component
 
-Removed client secret from `tools/oauth-consent-ID/client_secret_335360787471.json`
+Removed client secret from `tools/oauth-consent-ID/client_secret_335360787471.json` add it before building
 
 TODO:
 Add googleServices.json to root dir
