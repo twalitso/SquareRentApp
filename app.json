@@ -48,7 +48,7 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.br3mah.square",
+      "bundleIdentifier": "com.twalitso.square",
       "buildNumber": "2.0.3",
       "infoPlist": {
       "NSUserTrackingUsageDescription": "Allow this app to collect app-related data that can be used for tracking you or your device and deliver personalized ads to you.",
@@ -124,7 +124,7 @@
       "adaptiveIcon": {
         "backgroundColor": "#ffffff"
       },
-      "package": "com.br3mah.square",
+      "package": "com.twalitso.square",
       "versionCode": 16,
       "googleServicesFile": "./google-services.json"
     },
@@ -144,7 +144,7 @@
     "runtimeVersion": {
       "policy": "appVersion"
     },
-    "owner": "br3mah"
+    "owner": "twalitso"
   },
   "react-natitve-google-mobile-ads": {
     "android_app_id": "ca-app-pub-6203298272391383~5165446821",
