@@ -14,7 +14,9 @@
         {
           "android": {
             "extraManifestPlaceholders": {
-              "AD_ID_PERMISSION": "false"
+              "AD_ID_PERMISSION": "false",
+              "kotlinVersion": "1.8.22" ,
+               "googleMobileAdsAppId": "ca-app-pub-6203298272391383~5165446821"
             }
           }
         }
@@ -32,6 +34,7 @@
             "useFrameworks": "static"
           },
           "android": {
+           
             "extraProguardRules": "-keep class com.google.android.gms.internal.consent_sdk.** { *; }"
           }
         }
@@ -48,7 +51,7 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.twalitso.square",
+      "bundleIdentifier": "com.br3mah.square",
       "buildNumber": "2.0.3",
       "infoPlist": {
         "NSUserTrackingUsageDescription": "Allow this app to collect app-related data that can be used for tracking you or your device and deliver personalized ads to you.",
@@ -124,17 +127,17 @@
       "adaptiveIcon": {
         "backgroundColor": "#ffffff"
       },
-      "package": "com.twalitso.square",
+      "package": "com.br3mah.square",
       "versionCode": 17,
-      "googleServicesFile": "./google-services.json"
+      "googleServicesFile": "./googleServices.json"
     },
     "web": {
       "favicon": "./assets/icon/logo.png"
     },
     "extra": {
       "eas": {
-        
-        "appVersionSource": "playStore"
+        "appVersionSource": "playStore",
+        "projectId": "e68ffed9-61b4-49c1-9b9c-6c65d2b55466"
       }
     },
     "updates": {
@@ -144,12 +147,12 @@
     "runtimeVersion": {
       "policy": "appVersion"
     },
-    "owner": "br3mah"
+    "owner": "twalitsotech"
   },
-  "react-natitve-google-mobile-ads": {
+  "react-native-google-mobile-ads": {
     "android_app_id": "ca-app-pub-6203298272391383~5165446821",
     "ios_app_id": "",
-    "delay_app_measurement_init": true,
+    "delay_app_measurement_init": false,
     "user_tracking_usage_description": "This identifier will be used to deliver personalized ads to you.",
     "sk_ad_network_items": [
       "cstr6suwn9.skadnetwork",

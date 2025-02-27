@@ -9,7 +9,7 @@ const GoogleAdsense = () => {
   const doubleTapRef = useRef(false);
 
   // Google AdSense Ad Unit ID (replace with your own)
-  const adUnitId = 'ca-pub-6203298272391383'; // Replace with your AdSense ad unit ID
+  const adUnitId = 'ca-app-pub-6203298272391383~5165446821'; // Replace with your AdSense ad unit ID
   const adUrl = `https://square.twalitso.com/ads?adunit=${adUnitId}`; // Replace with your ad server URL
 
   // Show ad with animation
